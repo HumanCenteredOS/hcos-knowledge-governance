@@ -1,3 +1,14 @@
+## Start Here
+
+- [HCOS™ Ecosystem Architecture](architecture/HCOS_Ecosystem_Architecture.md)  
+  The highest-level architectural map of the HCOS™ ecosystem.
+
+- [HCOS™ Knowledge Governance Framework](architecture/HCOS_Knowledge_Governance_Framework.md)  
+  Defines how HCOS knowledge is evaluated, governed, and stewarded.
+
+- [HCOS™ Knowledge Lifecycle](architecture/HCOS_Knowledge_Lifecycle.md)  
+  Explains how evidence moves from observation through publication and continuous improvement.
+
 # hcos-knowledge-governance
 # governance/
 
