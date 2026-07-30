@@ -1,3 +1,11 @@
+Addend. Each document should begin with a consistent header:: Document ID: HCOS-I-001
+Title: HCOS™ Architecture Classification Instrument
+Category: Knowledge Architecture Instrument
+Status: Draft
+Version: 1.0.0
+Last Updated: July 2026
+Author: Human-Centered Operating Systems™ (HCOS™)
+
 # HCOS™ Standard Template
 
 **Document ID:** HCOS-S-XXX
