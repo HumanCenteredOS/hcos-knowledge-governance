@@ -1,143 +1,170 @@
-# ADR-001 — Organizational Readiness Stewardship
+# HCOS™ Organizational AI Readiness Standard
 
-**Status:** Proposed  
-**Date:** July 31, 2026  
+**Category:** Standard  
+**Status:** Draft  
 **Version:** 1.0.0  
-**Decision Owner:** HCOS™ Knowledge Governance  
-**Related Disciplines:** Human Systems; Human-Centered AI; Governship; Knowledge Stewardship; Human Load Protection
+**Date:** July 31, 2026  
+**Related Method:** HCOS™ Organizational Decision Readiness Method
 
-## Context
+## Purpose
 
-Organizations commonly describe artificial-intelligence adoption barriers as separate concerns involving cost, trust, privacy, security, return on investment, expertise, governance, and workforce adoption.
+This Standard defines the minimum human-centered conditions that should be examined before an organization introduces a defined AI capability into a defined workflow for a defined purpose.
 
-HCOS™ analysis suggests that these concerns often arise from a deeper systems condition: **organizational decision uncertainty**.
+It shifts the readiness question from:
 
-An organization may understand whether an AI system can perform a task while remaining unable to predict how introducing that capability will affect workflows, authority, accountability, measurement, human judgment, workload, exception handling, communication, and organizational learning.
+> Is the AI ready?
 
-This condition is not unique to AI. Similar uncertainty accompanies automation, electronic health record implementations, regulatory change, outsourcing, restructuring, and other significant interventions.
+to:
 
-## Decision
+> Is the organization prepared to understand, govern, absorb, evaluate, and learn from the consequences of using AI in this context?
 
-HCOS will recognize **Organizational Readiness Stewardship** as an emerging cross-disciplinary architectural pillar.
+This Standard supports responsible decisions. It does not certify universal readiness.
 
-> **Organizational Readiness Stewardship is the continuing responsibility to determine whether a human system possesses the understanding, governance, capacity, protections, and learning mechanisms needed to absorb significant change responsibly.**
+## Scope
 
-HCOS will develop this architecture in layers:
+This Standard applies to AI-supported workflow execution, automation, communication, knowledge retrieval, summarization, decision support, prioritization, prediction, content generation, agentic activity, and operational coordination.
 
-1. a technology-independent principle;
-2. an Organizational AI Readiness Standard;
-3. an Organizational Decision Readiness Method;
-4. an AI-specific readiness and decision-uncertainty assessment;
-5. use-case-specific supporting instruments;
-6. a validation and stewardship process.
+It complements rather than replaces legal, regulatory, privacy, cybersecurity, clinical-validation, model-risk, procurement, and technical reviews.
 
-The initial assessment will evaluate readiness for a **defined AI capability in a defined workflow for a defined purpose**. It will not claim to certify universal enterprise readiness.
+## Guiding Principles
 
-## Rationale
+- Begin with love.
+- Protect human dignity.
+- Reduce unnecessary suffering.
+- Seek truth.
+- Preserve meaningful human judgment.
+- Distinguish capability from readiness.
+- Make uncertainty visible.
+- Do not automate an incoherent or harmful workflow.
+- Do not transfer unresolved system problems to workers.
+- Match governance to consequence.
+- Learn before scaling.
+- Preserve the ability to pause, correct, and withdraw.
 
-### Readiness is a human-systems property
+## Requirements
 
-Technical capability exists inside a broader system of people, workflows, policies, metrics, resources, leadership decisions, daily operations, and recovery capacity.
+### 1. Clearly Frame the Decision
 
-### Decision readiness precedes implementation readiness
+The organization shall define the problem, proposed capability, intended users, affected people, workflow, purpose, expected outcome, alternatives, and consequence of no action.
 
-An organization should not move directly from capability identification to implementation planning. It first needs enough understanding to decide whether proceeding is responsible.
+**Expected outcome:** The organization can state what decision is being made and why AI is being considered.
 
-### Governance reduces uncertainty without pretending to eliminate it
+### 2. Understand the Current Human System
 
-Governance should make uncertainty visible, assign responsibility, establish boundaries, and define how learning and correction will occur.
+The organization shall examine workflow, roles, information flow, decisions, dependencies, bottlenecks, exceptions, workarounds, compensatory labor, and existing risks.
 
-### Human protection must be assessed before deployment
+**Expected outcome:** The decision reflects actual work rather than an idealized process.
 
-Workers and affected communities should not be expected to absorb unresolved design problems, hidden exception work, ambiguous accountability, or preventable disruption.
+### 3. Make Evidence and Expected Value Explicit
 
-### The principle is durable
+The organization shall identify baseline performance, supporting evidence, expected benefits, costs, potential harms, assumptions, gaps, uncertainty, and success measures.
 
-The same architectural logic applies beyond current AI technologies.
+**Expected outcome:** The organization can explain what improvement is expected and how it will know.
 
-## Architectural Classification
+### 4. Define Decision Ownership and Accountability
 
-| Element | Classification |
-|---|---|
-| Organizational Readiness Stewardship | Emerging cross-disciplinary pillar |
-| Readiness before significant change | Enduring principle |
-| Organizational AI Readiness | Standard domain |
-| Organizational Decision Readiness | Method |
-| AI Readiness & Decision Uncertainty Assessment | Instrument |
-| Readiness evidence and validation | Research and stewardship agenda |
+The organization shall establish accountable, operational, technical, human-review, incident, change, and escalation ownership.
 
-Organizational Readiness Stewardship will not initially become a standalone Discipline. Its maturity should be reassessed after standards, methods, pilots, and evidence have accumulated.
+**Expected outcome:** People know who decides, reviews, responds, corrects, and remains accountable.
 
-## Alternatives Considered
+### 5. Establish Governance Boundaries
 
-### Treat readiness only as AI implementation guidance
+The organization shall define permitted and prohibited uses, human-review thresholds, data and access boundaries, escalation, records, exception handling, pause criteria, withdrawal criteria, and reassessment triggers.
 
-Rejected because it would subordinate a durable human-systems principle to a temporary technology category.
+**Expected outcome:** The capability operates within explicit and reviewable limits.
 
-### Build the assessment before the Standard and Method
+### 6. Assess Human Consequences
 
-Rejected because assessment questions would lack stable constructs, interpretation rules, and architectural authority.
+The organization shall examine workload, workflow, judgment, autonomy, dignity, trust, communication, role identity, surveillance, metric pressure, emotional burden, recovery time, access, equity, and indirectly affected people.
 
-### Create a universal readiness score
+**Expected outcome:** The plan includes meaningful protections.
 
-Rejected because readiness is contextual, multidimensional, use-case-specific, and not appropriately represented by one number.
+### 7. Design Workflow and Operational Integration
 
-### Establish a new Discipline immediately
+The organization shall define what work is removed, retained, and created; where the capability enters; how exceptions and handoffs occur; and how downtime, failure, and duplication are managed.
 
-Deferred until the concept has matured through application and validation.
+**Expected outcome:** The future workflow is understandable and does not depend on hidden fragmentation.
 
-## Consequences
+### 8. Ensure Resources and Human Capacity
 
-### Benefits
+The organization shall consider staffing, time, training, support, oversight, technical resources, financial resources, recovery capacity, and competing priorities.
 
-- strengthens HCOS differentiation from technical readiness tools;
-- creates a disciplined path from insight to practice;
-- makes uncertainty and human consequences visible;
-- supports more responsible implementation decisions;
-- provides a natural application of the HCOS 8 + 3 + 1 model;
-- creates a reusable architecture for non-AI change.
+**Expected outcome:** Implementation does not rely on unplanned or unsustainable human effort.
 
-### Risks
+### 9. Build Measurement and Learning Into the Intervention
 
-- excessive complexity;
-- performative use;
-- false confidence from scoring;
-- inconsistent facilitator interpretation;
-- use to justify a predetermined purchase;
-- misinterpretation of readiness gaps as individual failure.
+The organization shall establish outcome, process, human-impact, and incident measures; feedback pathways; review cadence; learning ownership; revision authority; and scaling criteria.
 
-These risks require bounded decision outcomes, decision-critical flags, interpretation guidance, and staged validation.
+**Expected outcome:** The organization can detect benefit, harm, drift, and unintended consequences.
 
-## Required Follow-On Work
+### 10. Match Review Depth to Consequence
 
-1. Preserve the architecture synthesis.
-2. Define the core constructs.
-3. Develop the Organizational AI Readiness Standard.
-4. Develop the Organizational Decision Readiness Method.
-5. Create the assessment construct map.
-6. Define scoring and interpretation.
-7. Specify assessment outputs.
-8. Draft the instrument.
-9. Develop supporting evidence-gathering tools.
-10. Pilot and validate progressively.
+Assessment and governance depth shall correspond to severity, reversibility, scale, affected population, decision consequence, uncertainty, autonomy, and dependence on AI output.
 
-## Review Triggers
+### 11. Determine Readiness for a Defined Use Case
 
-Review this decision when:
+Readiness shall be evaluated for a defined capability, workflow, purpose, affected population, and governance context.
 
-- three materially different use cases have been piloted;
-- the pillar may warrant a standalone Discipline;
-- the constructs prove difficult to distinguish;
-- the assessment produces misleading or non-actionable results;
-- related HCOS architecture changes materially.
+### 12. Preserve the Ability to Pause or Decline
 
-## Decision Principle
+The process shall permit gathering evidence, redesigning the system, piloting, proceeding with protections, pausing, or declining.
 
-> Technical capability does not establish organizational readiness. Healthy organizations examine whether the surrounding human system is prepared to absorb a significant change before introducing the capability that creates it.
+A readiness process that assumes implementation is predetermined is not a genuine assessment.
+
+## HCOS 8 + 3 + 1 Review
+
+Assess anticipated effects on:
+
+### Eight System Forces
+
+Workload, Workflow, Policies, Metrics, Resources, Leadership Decisions, Daily Operations, and Recovery Time.
+
+### Three Human Protections
+
+Wisdom, Compassion, and Presence.
+
+### One Meaning Anchor
+
+Love of the Work.
+
+## Readiness Outcomes
+
+- Not sufficiently examined
+- Gather additional evidence
+- Redesign the surrounding system first
+- Pilot under bounded conditions
+- Proceed with required protections
+- Ready for responsible implementation
+- Do not proceed under current conditions
+
+No outcome guarantees safety, value, or success.
+
+## Decision-Critical Conditions
+
+The following ordinarily require resolution, formal acceptance, or a decision not to proceed:
+
+- no accountable owner;
+- no defined problem or purpose;
+- no identifiable affected population;
+- no escalation pathway;
+- no meaningful baseline;
+- unresolved high-consequence risk;
+- inability to detect failure;
+- automation of a materially incoherent workflow;
+- dependence on invisible human compensation;
+- no pause or withdrawal authority;
+- use beyond the organization’s governance capacity.
+
+## Measures of Success
+
+Adherence is reflected when the decision is clearly framed, current work is understood, uncertainty is documented, accountability is explicit, human impacts are considered, critical gaps are addressed, protections are actionable, learning is built in, and preventable system failures are not transferred to people.
+
+## Limitations
+
+This Standard does not predict implementation success, establish legal compliance, validate a model, remove uncertainty, or justify public ranking without validation. It must not be used to blame workers for low readiness.
 
 ## Revision History
 
 | Version | Date | Description |
 |---|---|---|
-| 1.0.0 | July 31, 2026 | Initial proposed decision. |
-
+| 1.0.0 | July 31, 2026 | Initial draft Standard. |
