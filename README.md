@@ -44,3 +44,317 @@ Examples translate architectural concepts into practical application. They illus
 * **Evolution_Example.md** — Demonstrates how accumulated evidence informs recommendations for new Foundations, Disciplines, Standards, Methods, Instruments, Governance, or Stewardship activities.
 
 These examples serve as practical reference implementations, enabling contributors to apply the HCOS Knowledge Architecture consistently while reinforcing an evidence-informed, human-centered approach to continuous learning and improvement.
+
+# GitHub Architecture — HCOS™ Organizational Readiness Stewardship
+
+```text
+HCOS-Knowledge-Governance/
+│
+├── README.md
+├── CHANGELOG.md
+├── VERSIONING.md
+├── FILE_MANIFEST.md
+│
+├── architecture/
+│   ├── README.md
+│   ├── HCOS_Ecosystem_Architecture.md
+│   ├── HCOS_Knowledge_Architecture.md
+│   ├── HCOS_Knowledge_Lifecycle.md
+│   ├── HCOS_Evidence_Maturity_Model.md
+│   ├── HCOS_Architecture_Principles.md
+│   │
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS_Organizational_Readiness_Architecture.md
+│       ├── HCOS_Organizational_Readiness_Core_Concepts.md
+│       ├── Organizational_Decision_Uncertainty_as_a_Primary_Barrier_to_AI_Adoption.md
+│       └── Organizational_AI_Readiness_Development_Roadmap.md
+│
+├── decisions/
+│   ├── README.md
+│   └── ADR-001_Organizational_Readiness_Stewardship.md
+│
+├── standards/
+│   ├── README.md
+│   └── HCOS_Organizational_AI_Readiness_Standard.md
+│
+├── methods/
+│   ├── README.md
+│   └── HCOS_Organizational_Decision_Readiness_Method.md
+│
+├── instruments/
+│   ├── README.md
+│   │
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS-I-XXX_Organizational_AI_Readiness_and_Decision_Uncertainty_Assessment.md
+│       ├── HCOS-I-XXX_Executive_Readiness_Screen.md
+│       ├── HCOS-I-XXX_AI_Use_Case_Framing_Worksheet.md
+│       ├── HCOS-I-XXX_Current_State_Workflow_Mapping_Guide.md
+│       ├── HCOS-I-XXX_Decision_Ownership_and_Authority_Map.md
+│       ├── HCOS-I-XXX_Human_Impact_and_Load_Review.md
+│       ├── HCOS-I-XXX_Governance_and_Escalation_Checklist.md
+│       ├── HCOS-I-XXX_Evidence_and_Baseline_Review.md
+│       └── HCOS-I-XXX_Learning_and_Reassessment_Plan.md
+│
+├── assessment-architecture/
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS_Organizational_AI_Readiness_Construct_Map.md
+│       ├── HCOS_Organizational_AI_Readiness_Scoring_and_Interpretation_Framework.md
+│       ├── HCOS_Organizational_AI_Readiness_Output_Specification.md
+│       └── HCOS_Decision_Critical_Conditions.md
+│
+├── validation/
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS_Organizational_AI_Readiness_Pilot_Protocol.md
+│       ├── HCOS_Content_Validation_Guide.md
+│       ├── HCOS_Cognitive_Testing_Guide.md
+│       ├── HCOS_Inter_Rater_Review_Plan.md
+│       ├── HCOS_Decision_Utility_Evaluation.md
+│       └── HCOS_Outcome_Validation_Roadmap.md
+│
+├── stewardship/
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS_Organizational_Readiness_Stewardship_Plan.md
+│       ├── HCOS_Assessment_Review_Schedule.md
+│       ├── HCOS_Evidence_Monitoring_Plan.md
+│       └── HCOS_Revision_and_Deprecation_Guidance.md
+│
+├── templates/
+│   └── organizational-readiness/
+│       ├── Readiness_Assessment_Record_Template.md
+│       ├── Decision_Uncertainty_Map_Template.md
+│       ├── Human_System_Impact_Map_Template.md
+│       ├── Readiness_Action_Plan_Template.md
+│       └── Learning_and_Reassessment_Record_Template.md
+│
+└── examples/
+    └── organizational-readiness/
+        ├── README.md
+        ├── Prior_Authorization_AI_Readiness_Example.md
+        ├── Clinical_Message_Summarization_Readiness_Example.md
+        ├── Employee_Knowledge_Search_Readiness_Example.md
+        └── Organizational_Readiness_Worked_Synthesis.md
+```
+
+# Architectural Layers
+
+## 1. Architecture
+
+Explains the concept and why it belongs within HCOS.
+
+```text
+architecture/organizational-readiness/
+```
+
+Primary documents:
+
+* Organizational Readiness Architecture
+* Core Concepts
+* Decision Uncertainty Synthesis
+* Development Roadmap
+
+---
+
+## 2. Decision Record
+
+Preserves why HCOS created the architecture.
+
+```text
+decisions/ADR-001_Organizational_Readiness_Stewardship.md
+```
+
+The ADR should remain the authoritative record of the architectural decision.
+
+---
+
+## 3. Standard
+
+Defines the conditions that should exist before proceeding.
+
+```text
+standards/HCOS_Organizational_AI_Readiness_Standard.md
+```
+
+Core question:
+
+> What does responsible organizational AI readiness require?
+
+---
+
+## 4. Method
+
+Defines the repeatable review process.
+
+```text
+methods/HCOS_Organizational_Decision_Readiness_Method.md
+```
+
+Core question:
+
+> How should an organization evaluate decision readiness?
+
+---
+
+## 5. Assessment Architecture
+
+Defines the structure of the future assessment before questions are written.
+
+```text
+assessment-architecture/organizational-readiness/
+```
+
+This folder contains:
+
+* domains and constructs
+* scoring philosophy
+* decision-critical conditions
+* output requirements
+* interpretation rules
+
+---
+
+## 6. Instruments
+
+Contains the usable assessment and supporting tools.
+
+```text
+instruments/organizational-readiness/
+```
+
+The primary instrument should be:
+
+```text
+HCOS-I-XXX_Organizational_AI_Readiness_and_Decision_Uncertainty_Assessment.md
+```
+
+Supporting instruments should remain modular so organizations can use only the components appropriate to the use case.
+
+---
+
+## 7. Validation
+
+Contains the evidence-development process for the assessment.
+
+```text
+validation/organizational-readiness/
+```
+
+This keeps instrument development separate from claims of reliability or validity.
+
+Until validation is completed, the assessment should be described as:
+
+> An evidence-informed organizational decision-support instrument.
+
+---
+
+## 8. Stewardship
+
+Defines how the architecture and assessment are reviewed and improved.
+
+```text
+stewardship/organizational-readiness/
+```
+
+This includes:
+
+* evidence monitoring
+* periodic review
+* change management
+* deprecation
+* future revisions
+
+---
+
+## 9. Templates
+
+Contains reusable records generated during the assessment.
+
+```text
+templates/organizational-readiness/
+```
+
+These are outputs, not independent HCOS Methods or Standards.
+
+---
+
+## 10. Examples
+
+Demonstrates how the architecture applies to bounded AI use cases.
+
+```text
+examples/organizational-readiness/
+```
+
+Start with concrete use cases rather than a universal enterprise-readiness example.
+
+# Recommended Development Order
+
+```text
+1. architecture/organizational-readiness/
+2. decisions/
+3. standards/
+4. methods/
+5. assessment-architecture/
+6. instruments/
+7. templates/
+8. examples/
+9. validation/
+10. stewardship/
+```
+
+# Minimum Initial Structure
+
+You do not need to create every folder immediately.
+
+Start with:
+
+```text
+HCOS-Knowledge-Governance/
+│
+├── architecture/
+│   └── organizational-readiness/
+│       ├── README.md
+│       ├── HCOS_Organizational_Readiness_Architecture.md
+│       ├── HCOS_Organizational_Readiness_Core_Concepts.md
+│       ├── Organizational_Decision_Uncertainty_as_a_Primary_Barrier_to_AI_Adoption.md
+│       └── Organizational_AI_Readiness_Development_Roadmap.md
+│
+├── decisions/
+│   └── ADR-001_Organizational_Readiness_Stewardship.md
+│
+├── standards/
+│   └── HCOS_Organizational_AI_Readiness_Standard.md
+│
+└── methods/
+    └── HCOS_Organizational_Decision_Readiness_Method.md
+```
+
+Add `assessment-architecture/`, `instruments/`, `validation/`, and `examples/` as those documents are developed.
+
+# Repository Principle
+
+The architecture should remain:
+
+```text
+Enduring Principle
+        ↓
+Architecture
+        ↓
+Standard
+        ↓
+Method
+        ↓
+Assessment Architecture
+        ↓
+Instrument
+        ↓
+Validation
+        ↓
+Stewardship
+```
+
+This order preserves traceability and prevents the assessment from becoming a disconnected questionnaire.
