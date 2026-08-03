@@ -1,3 +1,36 @@
+# HCOS™ Organizational Readiness Foundation — File Manifest
+
+## Intended Repository Placement
+
+```text
+HCOS-Knowledge-Governance/
+├── decisions/
+│   └── ADR-001_Organizational_Readiness_Stewardship.md
+├── architecture/
+│   ├── Organizational_Decision_Uncertainty_as_a_Primary_Barrier_to_AI_Adoption.md
+│   ├── HCOS_Organizational_Readiness_Core_Concepts.md
+│   └── Organizational_AI_Readiness_Development_Roadmap.md
+├── standards/
+│   └── HCOS_Organizational_AI_Readiness_Standard.md
+└── methods/
+    └── HCOS_Organizational_Decision_Readiness_Method.md
+```
+
+## Next Planned Documents
+
+- Assessment Construct Map
+- Scoring and Interpretation Framework
+- Assessment Output Specification
+- Organizational AI Readiness & Decision Uncertainty Assessment
+- Executive Screening Version
+- Full Facilitated Assessment
+- Supporting Interview and Workflow Instruments
+- Interpretation Guide
+- Pilot Protocol
+- Validation Plan
+- Worked Example
+
+
 # File Manifest
 
 - `CHANGELOG.md`
